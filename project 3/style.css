@@ -1,0 +1,118 @@
+/* font-family: 'Secular One', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: aqua;
+}
+.topContainer{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius:10px;
+
+}
+/* .nav-head{
+    
+} */
+.middleContainer{
+    height:503px;
+    width:100px;
+    margin-left: 30px;
+
+}
+.img{
+    height: 503px;
+}
+.lastLeftContainer{
+    height: 499px;
+    width: 855px;
+    margin-left: 30px;
+    background-color: white;
+    float: left;
+}
+.primaryHeading{
+    margin-left: 130px;
+    font-family: 'Secular One', sans-serif;
+
+}
+.nav-list{
+    display:flex;justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+   list-style: none;
+   margin-right: 2rem; 
+}
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    transition: all 200ms ease-in;
+}
+.nav-item a:hover{
+    color: var(--clr-primary-dark);
+
+}
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 0;
+}
+.navHeading{
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Secular One', sans-serif;
+}
+.headingH1{
+    margin-top: 51px;
+    margin-left: 130px;
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Secular One', sans-serif;
+}
+.description{
+    margin-top: 0px;
+    margin-left: 132px;
+    font-family: 'Secular One', sans-serif;
+}
+.lastRightContainer{
+    background-color:white;
+    border: red;
+    float:right;
+    height: 499px;
+    margin-top: 0px;
+    margin-right: 30px;
+    width: 434px;
+}
+.nestedRightContainer1{
+    background-color: yellow;
+    margin-left: 90px;
+    margin-top: 40px;
+    width: 257px;
+    height: 434px;
+}
+.nestedRightContainer2{
+    background-color: red;
+    color:white;
+    /* margin-top: 10px; 
+    margin-left: 10‒; 
+    margin-left: 10px; 
+    width: 236px;
+    padding-top: 10px;
+    height: 50px;  */
+    padding-top: 8px;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 54px;
+    width: 257px;
+}
+.impoLinks{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: 'Secular One', sans-serif;
+}
+
